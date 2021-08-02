@@ -36,12 +36,12 @@ DJANGO_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",    
+    "django.contrib.staticfiles",
 ]
 
 THIRD_PARTY_APPS = [
     "django_countries",
-    "django_seed"
+    "django_seed",
 ]
 
 PROJECT_APPS = [
@@ -71,7 +71,7 @@ ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -141,3 +141,13 @@ AUTH_USER_MODEL = "users.USER"
 MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
 
 MEDIA_URL = "/media/"
+
+# Email Configuration
+
+EMAIL_HOST = "smtp.mailgun.org"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = os.environ.get("MAILGUN_USERNAME")
+EMAIL_HOST_PASSWORD = os.environ.get("MAILGUN_PASSWORD")
+EMAIL_FROM = "airbnb@sandboxb780e09e8aea49139ba93ae98f7920e9.mailgun.org"
+print(os.environ.get("MAILGUN_USERNAME"))
+print(os.environ.get("MAILGUN_PASSWORD"))
