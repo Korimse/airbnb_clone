@@ -4,4 +4,5 @@
  # Stacks
 * Python
 * Django
+* Oauth
 * TailWind
