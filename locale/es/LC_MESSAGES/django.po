@@ -29,3 +29,31 @@ msgstr "Por favor no nos copies."
 #: templates/partials/footer.html:6
 msgid "All rights reserved"
 msgstr "Todos los derechos reservados"
+
+#: templates/partials/nav.html:6
+msgid "Stop hosting"
+msgstr "Cambiar a Invitado"
+
+#: templates/partials/nav.html:8
+msgid "Start hosting"
+msgstr "Cambiar a Host"
+
+#: templates/partials/nav.html:13
+msgid "Create Room"
+msgstr "Crear Habitación"
+
+#: templates/partials/nav.html:15
+msgid "Profile"
+msgstr "Perfil"
+
+#: templates/partials/nav.html:16
+msgid "Log out"
+msgstr "Cerrar Sesión"
+
+#: templates/partials/nav.html:18
+msgid "Log in"
+msgstr "Iniciar Sesión"
+
+#: templates/partials/nav.html:19
+msgid "Sign up"
+msgstr ""
