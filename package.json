@@ -1,0 +1,25 @@
+{
+  "name": "airbnb-clone",
+  "version": "1.0.0",
+  "description": "숙소 예약 서비스를 제공하는 에어비엔비를 클론 코딩한 프로젝트입니다.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korimse/airbnb_clone.git"
+  },
+  "scripts": {
+    "css": "gulp"
+  },
+  "homepage": "https://github.com/Korimse/airbnb_clone#readme",
+  "dependencies": {
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^9.0.0",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1"
+  }
+}
